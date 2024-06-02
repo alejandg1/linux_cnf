@@ -1,10 +1,10 @@
 # py3status
 
 general {
-	color_bad = "#dc322f"
-	color_degraded = "#cb4b16"
-	color_good = "#815aa8"
-	color_separator = "#586e75"
+	color_bad = "#a6b9e7"
+	color_degraded = "#a6b9e7"
+	color_good = "#907FE0"
+	color_separator = "#a6b9e7"
 	colors = true
 	interval = 60
 	markup = "pango"
@@ -15,12 +15,21 @@ py3status {
 
 }
 
+order += "keyboard_layout"
 order += "whatismyip"
 order += "disk /"
 order += "bluetooth"
 order += "tztime local"
 order += "volume_status speakers"
 order += "volume_status mic"
+
+keyboard_layout {
+  layout = ['us', 'latam']
+  color_latam = "#815aa8"
+  color_us = "#268bd2"
+  cache_timeout = 0
+  format = " {layout}"
+}
 
 
 emerge_status {
