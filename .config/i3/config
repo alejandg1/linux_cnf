@@ -25,7 +25,7 @@ floating_modifier $mod
 bindsym $mod+Return exec kitty
 bindsym $mod+n exec chromium
 ##NOTE: mio
-bindsym mod1+q exec ~/.config/rofi/launchers/type-2/launcher.sh
+bindsym mod1+q exec ~/.config/rofi/launchers/mine/launcher.sh
 bindsym mod1+l exec ~/.config/rofi/applets/bin/powermenu.sh
 bindsym mod1+v exec pavucontrol
 bindsym mod1+s exec ~/.config/rofi/applets/bin/screenshot.sh
@@ -175,26 +175,26 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #variables
-set $bg #090b0a
-set $fg #a6b9e7
-set $cur #a6b9e7
+set $bg #151823
+set $fg #b1c4ec
+set $cur #b1c4ec
 set $urgent #ec7ea4
-set $color0 #090b0a
-set $color1 #385F9D
-set $color2 #8066B1
-set $color3 #977CDC
-set $color4 #907FE0
-set $color5 #088CE5
-set $color6 #2888E1
-set $color7 #a6b9e7
-set $color8 #7481a1
-set $color9 #385F9D
-set $color1 #385F9D
-set $color1 #385F9D
-set $color1 #385F9D
-set $color1 #385F9D
-set $color1 #385F9D
-set $color1 #385F9D
+set $color0 #151823
+set $color1 #495D8D
+set $color2 #5A74B0
+set $color3 #617FC1
+set $color4 #D76A82
+set $color5 #F6768D
+set $color6 #6A8BD3
+set $color7 #b1c4ec
+set $color8 #7b89a5
+set $color9 #495D8D
+set $color1 #495D8D
+set $color1 #495D8D
+set $color1 #495D8D
+set $color1 #495D8D
+set $color1 #495D8D
+set $color1 #495D8D
 bar {
  position bottom
  font pango: CaskaydiaCove Nerd Font SemiBold 10

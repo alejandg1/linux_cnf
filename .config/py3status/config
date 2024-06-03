@@ -1,10 +1,10 @@
 # py3status
 
 general {
-	color_bad = "#a6b9e7"
-	color_degraded = "#a6b9e7"
-	color_good = "#907FE0"
-	color_separator = "#a6b9e7"
+	color_bad = "#b1c4ec"
+	color_degraded = "#b1c4ec"
+	color_good = "#D76A82"
+	color_separator = "#b1c4ec"
 	colors = true
 	interval = 60
 	markup = "pango"
