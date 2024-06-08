@@ -12,40 +12,39 @@ alias kde-share="kdeconnect-cli --name adre --share"
 alias kde-desconectar="kdeconnect-cli --name adre --unpair"
 alias bat="batcat"
 alias fd="fdfind"
+alias tg="bash ~/scripts/tokyonight.sh"
 alias i3c="cd ~/.config/i3/  && nvim ."
 alias daily_print="bash ~/scripts/print_daily.sh"
+alias current_ker="mhwd-kernel -li"
 
 #$env:OPEN_AI_KEY = "sk-IWdwqqSetpqrKzWTbP3NT3BlbkFJDB3lYb5W7ePnt6dVlvL"
 export PATH="/home/adre/node-v20.11.0-linux-x64/bin/:$PATH"
 export PATH=$PATH:"$HOME/go/bin/"
-export PATH=$PATH:/home/adre/.spicetify
+export PATH=$PATH:"/home/adre/.spicetify"
 
 # colorscheme default=tokyonight
-(cat ~/.cache/wal/sequences &)
-cat ~/.cache/wal/sequences
+# (cat ~/.cache/wal/sequences &)
+# cat ~/.cache/wal/sequences
 #archivos importados
 
-
-
-
-source ~/.cache/wal/colors-tty.sh
+# source ~/.cache/wal/colors-tty.sh
 source ~/zsh/plugins.sh
-export BG="#1b1e25"
-export FG="#baccd7"
-export CUR="#baccd7"
-export COLOR0="#1b1e25"
-export COLOR1="#637B90"
-export COLOR2="#6B869A"
-export COLOR3="#7796AD"
-export COLOR4="#7FA1B5"
-export COLOR5="#84A7BD"
-export COLOR6="#84A7C0"
-export COLOR7="#baccd7"
-export COLOR8="#828e96"
-export COLOR9="#637B90"
-export COLOR10="#6B869A"
-export COLOR11="#7796AD"
-export COLOR12="#7FA1B5"
-export COLOR13="#84A7BD"
-export COLOR14="#84A7C0"
-export COLOR15="#baccd7"
+export BG="#0f1016"
+export FG="#bcbfcf"
+export CUR="#bcbfcf"
+export COLOR0="#0f1016"
+export COLOR1="#D26E81"
+export COLOR2="#F7768E"
+export COLOR3="#62ADA6"
+export COLOR4="#76A0EC"
+export COLOR5="#7AA2F7"
+export COLOR6="#73D8CC"
+export COLOR7="#bcbfcf"
+export COLOR8="#838590"
+export COLOR9="#D26E81"
+export COLOR10="#F7768E"
+export COLOR11="#62ADA6"
+export COLOR12="#76A0EC"
+export COLOR13="#7AA2F7"
+export COLOR14="#73D8CC"
+export COLOR15="#bcbfcf"

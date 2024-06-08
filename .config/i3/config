@@ -175,26 +175,26 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #variables
-set $bg #1b1e25
-set $fg #baccd7
-set $cur #baccd7
+set $bg #0f1016
+set $fg #bcbfcf
+set $cur #bcbfcf
 set $urgent #ec7ea4
-set $color0 #1b1e25
-set $color1 #637B90
-set $color2 #6B869A
-set $color3 #7796AD
-set $color4 #7FA1B5
-set $color5 #84A7BD
-set $color6 #84A7C0
-set $color7 #baccd7
-set $color8 #828e96
-set $color9 #637B90
-set $color1 #637B90
-set $color1 #637B90
-set $color1 #637B90
-set $color1 #637B90
-set $color1 #637B90
-set $color1 #637B90
+set $color0 #0f1016
+set $color1 #D26E81
+set $color2 #F7768E
+set $color3 #62ADA6
+set $color4 #76A0EC
+set $color5 #7AA2F7
+set $color6 #73D8CC
+set $color7 #bcbfcf
+set $color8 #838590
+set $color9 #D26E81
+set $color1 #D26E81
+set $color1 #D26E81
+set $color1 #D26E81
+set $color1 #D26E81
+set $color1 #D26E81
+set $color1 #D26E81
 bar {
  position bottom
  font pango: CaskaydiaCove Nerd Font SemiBold 10

@@ -11,7 +11,7 @@ RANDOM_IMAGE=${IMAGES[$RANDOM % ${#IMAGES[@]}]}
 echo $RANDOM_IMAGE
 
 # Establece la imagen seleccionada como fondo de pantalla utilizando Nitrogen/pywal
-# nitrogen --set-zoom-fill $RANDOM_IMAGE
+nitrogen --set-zoom-fill $RANDOM_IMAGE --save
 wal -i $RANDOM_IMAGE
 
 source ~/scripts/colorsZshrc.sh
