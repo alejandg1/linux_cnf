@@ -1,10 +1,10 @@
 # py3status
 
 general {
-	color_bad = "#bcbfcf"
-	color_degraded = "#bcbfcf"
-	color_good = "#76A0EC"
-	color_separator = "#bcbfcf"
+	color_bad = "#dfeae9"
+	color_degraded = "#dfeae9"
+	color_good = "#6EC6BD"
+	color_separator = "#dfeae9"
 	colors = true
 	interval = 60
 	markup = "pango"
@@ -17,8 +17,7 @@ py3status {
 
 order += "keyboard_layout"
 order += "whatismyip"
-order += "disk /"
-order += "bluetooth"
+# order += "disk /"
 order += "tztime local"
 order += "volume_status speakers"
 order += "volume_status mic"
@@ -28,7 +27,7 @@ keyboard_layout {
   color_latam = "#815aa8"
   color_us = "#268bd2"
   cache_timeout = 0
-  format = " {layout}"
+  format = "  {layout}"
 }
 
 
@@ -88,7 +87,7 @@ dpms {
 
 volume_status speakers {
 	command = "pactl"
-	format = ' {percentage}%'
+	format = '  {percentage}%'
 	format_muted = ' {percentage}%'
 	button_down = 5
 	button_mute = 1
@@ -108,21 +107,21 @@ volume_status mic {
 }
 
 whatismyip {
-	format_offline = ""
-	format_online = ""
+	format_offline = " "
+	format_online = " "
 	mode = 'status'
 }
 
 tztime local {
-	format = "%d/%m %H:%M:%S"
+	format = "%d/%m %H:%M"
 }
 
 load {
 	format = "%5min"
 }
 
-disk "/" {
-	format = "/ %used"
+disk {
+	format = "/ %free"
 	on_click 1 = "exec thunar ~"
 }
 volume master {

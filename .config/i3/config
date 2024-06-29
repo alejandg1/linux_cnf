@@ -175,34 +175,34 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #variables
-set $bg #0f1016
-set $fg #bcbfcf
-set $cur #bcbfcf
+set $bg #151823
+set $fg #dfeae9
+set $cur #dfeae9
 set $urgent #ec7ea4
-set $color0 #0f1016
-set $color1 #D26E81
-set $color2 #F7768E
-set $color3 #62ADA6
-set $color4 #76A0EC
-set $color5 #7AA2F7
-set $color6 #73D8CC
-set $color7 #bcbfcf
-set $color8 #838590
-set $color9 #D26E81
-set $color1 #D26E81
-set $color1 #D26E81
-set $color1 #D26E81
-set $color1 #D26E81
-set $color1 #D26E81
-set $color1 #D26E81
+set $color0 #151823
+set $color1 #57658C
+set $color2 #6D738B
+set $color3 #5D9C9E
+set $color4 #6EC6BD
+set $color5 #73DACA
+set $color6 #A1D4CC
+set $color7 #dfeae9
+set $color8 #9ca3a3
+set $color9 #57658C
+set $color1 #57658C
+set $color1 #57658C
+set $color1 #57658C
+set $color1 #57658C
+set $color1 #57658C
+set $color1 #57658C
 bar {
  position bottom
- font pango: CaskaydiaCove Nerd Font SemiBold 10
+ font pango: Cascadia Code Bold 10
 	# status_command i3blocks
   status_command py3status -c ~/.config/py3status/config
         # i3bar_command i3bar -t
 	 height 16
-	 separator_symbol  " "
+	 separator_symbol  "|"
 	       colors {
 	         background $bg
 	         # <workclass>		 <border>   <bg>    <text>

@@ -23,7 +23,7 @@
 # urgent
 command=$SCRIPT_DIR/$BLOCK_NAME
 separator=true
-separator_block_width=20
+separator_block_width=5
 markup=pango
 
 
