@@ -1,16 +1,3 @@
-# py3status
-
-general {
-	color_bad = "#d4c1d2"
-	color_degraded = "#d4c1d2"
-	color_good = "#967499"
-	color_separator = "#d4c1d2"
-	colors = true
-	interval = 60
-	markup = "pango"
-	output_format = "i3bar"
-}
-
 py3status {
 
 }
@@ -30,7 +17,7 @@ sysdata {
 
 keyboard_layout {
   layout = ['us', 'latam']
-  color_latam = "#815aa8"
+  color_latam = "#bb9af7"
   color_us = "#268bd2"
   cache_timeout = 0
   format = "  {layout}"
