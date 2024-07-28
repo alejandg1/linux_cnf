@@ -33,7 +33,7 @@ bindsym mod1+h exec ~/.config/rofi/applets/bin/scripts.sh
 bindsym mod1+n exec ~/.config/rofi/applets/bin/quicklinks.sh
 bindsym mod1+i exec setxkbmap -layout us
 bindsym mod1+e exec setxkbmap -layout latam
-bindsym mod1+w exec ~/scripts/change_wallpaper.sh
+# bindsym mod1+w exec ~/scripts/change_wallpaper.sh
 bindsym mod1+t exec ~/scripts/today.sh
 ###NOTE: control de spotify
 bindsym mod1+Shift+Left exec playerctl previous -p spotify
@@ -175,26 +175,26 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 #variables
-set $bg #151823
-set $fg #dfeae9
-set $cur #dfeae9
+set $bg #10151c
+set $fg #d4c1d2
+set $cur #d4c1d2
 set $urgent #ec7ea4
-set $color0 #151823
-set $color1 #57658C
-set $color2 #6D738B
-set $color3 #5D9C9E
-set $color4 #6EC6BD
-set $color5 #73DACA
-set $color6 #A1D4CC
-set $color7 #dfeae9
-set $color8 #9ca3a3
-set $color9 #57658C
-set $color1 #57658C
-set $color1 #57658C
-set $color1 #57658C
-set $color1 #57658C
-set $color1 #57658C
-set $color1 #57658C
+set $color0 #10151c
+set $color1 #FB907A
+set $color2 #355B84
+set $color3 #69709F
+set $color4 #967499
+set $color5 #D57585
+set $color6 #7D80BA
+set $color7 #d4c1d2
+set $color8 #948793
+set $color9 #FB907A
+set $color1 #FB907A
+set $color1 #FB907A
+set $color1 #FB907A
+set $color1 #FB907A
+set $color1 #FB907A
+set $color1 #FB907A
 bar {
  position bottom
  font pango: Cascadia Code Bold 10

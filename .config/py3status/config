@@ -1,10 +1,10 @@
 # py3status
 
 general {
-	color_bad = "#dfeae9"
-	color_degraded = "#dfeae9"
-	color_good = "#6EC6BD"
-	color_separator = "#dfeae9"
+	color_bad = "#d4c1d2"
+	color_degraded = "#d4c1d2"
+	color_good = "#967499"
+	color_separator = "#d4c1d2"
 	colors = true
 	interval = 60
 	markup = "pango"
@@ -14,13 +14,19 @@ general {
 py3status {
 
 }
-
+order += "sysdata"
 order += "keyboard_layout"
-order += "whatismyip"
+# order += "whatismyip"
 # order += "disk /"
 order += "tztime local"
-order += "volume_status speakers"
-order += "volume_status mic"
+# order += "volume_status speakers"
+# order += "volume_status mic"
+sysdata {
+    cpus = ['cpu?*']         
+    mem_unit = "GiB"
+    swap_unit = "GiB"
+    format = " {mem_used}/{mem_total}  {swap_used}/{swap_total}  {cpu_used_percent}%"
+}
 
 keyboard_layout {
   layout = ['us', 'latam']
@@ -119,6 +125,8 @@ tztime local {
 load {
 	format = "%5min"
 }
+
+
 
 disk {
 	format = "/ %free"
