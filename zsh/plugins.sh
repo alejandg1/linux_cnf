@@ -3,13 +3,16 @@
 
 eval "$(starship init zsh)"
 
-# NOTE: plugins
 plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "zsh-users/zsh-syntax-highlighting"
 plug "esc/conda-zsh-completion"
+plug "zsh-history-substring-search"
+#keys
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
 
-#NOTE: AUTOCOMPLETADO
+#AUTOCOMPLETADO
 autoload -Uz compinit
 compinit
 
