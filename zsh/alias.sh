@@ -17,3 +17,8 @@ alias daily_print="bash ~/scripts/print_daily.sh"
 alias current_ker="mhwd-kernel -li"
 
 alias parrot="sudo docker start -i parrot"
+
+alias server="sudo systemctl start sshd && sudo systemctl start docker.service && sudo docker start navidrome"
+
+alias passS="keepassxc-cli search ~/Documentos/pass/passwords.kdbx"
+alias passC="keepassxc-cli clip ~/Documentos/pass/passwords.kdbx"
