@@ -22,3 +22,8 @@ alias server="sudo systemctl start sshd && sudo systemctl start docker.service &
 
 alias passS="keepassxc-cli search ~/Documentos/pass/passwords.kdbx"
 alias passC="keepassxc-cli clip ~/Documentos/pass/passwords.kdbx"
+
+
+alias backup="~/scripts/backup.sh"
+
+alias docker="sudo docker"
