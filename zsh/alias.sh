@@ -17,10 +17,14 @@ alias kde-disconect="kdeconnect-cli --name adre --unpair"
 alias daily_print="bash ~/scripts/print_daily.sh"
 alias current_ker="mhwd-kernel -li"
 
-alias server="sudo systemctl start sshd && sudo systemctl start docker.service"
+# alias server="sudo systemctl start sshd && sudo systemctl start docker.service"
+alias server_start="cd ~/server/ && sudo docker-compose up -d && cd "
+alias server_stop="cd ~/server/ && sudo docker-compose down && cd "
 
 alias passS="keepassxc-cli search ~/Documentos/pass/passwords.kdbx"
 alias passC="keepassxc-cli clip ~/Documentos/pass/passwords.kdbx"
+
+alias unlockBT="sudo rfkill unblock bluetooth"
 
 
 alias backup="~/scripts/backup.sh"
@@ -28,6 +32,11 @@ alias reload_server="~/server/reload.sh"
 
 alias docker="sudo docker"
 
+# server
+
 export ANDROID_HOME=$HOME/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
+
+
+
